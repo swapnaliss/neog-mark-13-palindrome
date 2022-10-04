@@ -170,10 +170,17 @@ function getPreviousPalindromeDate(date) {
 var bdayInput = document.querySelector("#birth-input");
 var showBtn = document.querySelector("#show-btn");
 var resultDiv = document.querySelector("#result");
+var errorMessage = document.querySelector("#errorMessage");
 
 function clickHandler(e) {
   var bdayString = bdayInput.value;
-
+   console.log(bdayInput.value);
+ if (bdayString === "") {
+   errorMessage.innerText = "Field can not be empty!";
+   return;
+ }else{
+   errorMessage.innerText = "";
+ }
   if (bdayString !== "") {
     var date = bdayString.split("-");
     var yyyy = date[0];
