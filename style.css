@@ -57,9 +57,3 @@ main {
 #errorMessage{
   color:red;
 }
-.closebtn{
-background-color: #f87171;
-padding:0px 18px;
-border-radius: 50%;
-font-size: 50px;
-}
