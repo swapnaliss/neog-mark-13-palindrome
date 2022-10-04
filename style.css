@@ -2,6 +2,7 @@
   padding: 0.5rem;
   margin: 0.5rem;
   box-sizing: border-box;
+
 }
 
 :root {
@@ -19,6 +20,10 @@ h2 {
 main {
   text-align: center;
   margin: 3rem;
+  background-color: #3a435a;
+  margin-left: 300px;
+  margin-right: 300px;
+
 }
 .input {
   font-size: 14px;
@@ -47,4 +52,14 @@ main {
 #result {
   font-size: x-large;
   margin: 2rem 0;
+
+}
+#errorMessage{
+  color:red;
+}
+.closebtn{
+background-color: #f87171;
+padding:0px 18px;
+border-radius: 50%;
+font-size: 50px;
 }
